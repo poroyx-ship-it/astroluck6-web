@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#050914" />
+  <meta name="description" content="AstroLuck6 — yapay zekâ destekli kişisel rehber. Gökyüzünden ilham alır, kararı sana bırakır." />
+  <link rel="icon" href="assets/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>AstroLuck6 — Yolunu Aydınlat</title>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="stars" id="stars" aria-hidden="true"></div>
+  <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+  <header class="site-header" id="siteHeader">
+    <a class="brand" href="#top" aria-label="AstroLuck6 ana sayfa">
+      <span class="brand-icon"><img src="assets/astroluck-mark.png" alt="" /></span>
+      <span class="brand-name">AstroLuck<span class="gold">6</span></span>
+    </a>
+    <nav aria-label="Ana menü">
+      <a href="#deneyim">Deneyim</a>
+      <a href="#ilkeler">İlkeler</a>
+      <a href="#yolculuk">Yolculuk</a>
+    </nav>
+    <a class="nav-cta" href="#basla">Yolculuğa Başla</a>
+  </header>
+
+  <main id="top">
+    <section class="hero section-shell">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> Her yolculuk bir işaretle başlar.</p>
+        <h1>Gökyüzü geleceği<br>söylemez.<br><em>Yolunu aydınlatır.</em></h1>
+        <p class="hero-lead">Yapay zekâ destekli kişisel rehber. Gökyüzünden ilham alır, kararı sana bırakır.</p>
+        <div class="store-actions">
+          <button class="store-button" type="button" aria-label="App Store yakında">
+            <span class="store-icon"></span>
+            <span><small>Yakında</small>App Store</span>
+          </button>
+          <button class="store-button" type="button" aria-label="Google Play yakında">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 2.8v18.4l10.8-9.2L3.5 2.8Zm12.1 8.1 2.7-2.3-11-6.3 8.3 8.6Zm0 2.2-8.3 8.6 11-6.3-2.7-2.3Zm1.7-1.1 2.9 2.5c.5.4.5 1.1 0 1.5l-.5.3-2.4-4.3Zm0 0 2.4-4.3.5.3c.5.3.5 1.1 0 1.5L17.3 12Z"/></svg>
+            <span><small>Yakında</small>Google Play</span>
+          </button>
+        </div>
+        <p class="microcopy">18+ <i></i> Yapay zekâ destekli <i></i> Karar her zaman sana ait</p>
+      </div>
+
+      <div class="hero-stage reveal" id="heroStage" aria-label="AstroLuck mobil uygulama ön izlemesi">
+        <div class="orb orb-one"></div>
+        <div class="orb orb-two"></div>
+        <svg class="light-path" viewBox="0 0 800 820" fill="none" aria-hidden="true">
+          <path d="M118 746C322 670 524 727 553 551C581 380 433 393 473 250C505 137 615 116 703 68" stroke="url(#pathGradient)" stroke-width="2" stroke-linecap="round"/>
+          <defs><linearGradient id="pathGradient" x1="118" y1="746" x2="703" y2="68"><stop stop-color="#C99837" stop-opacity="0"/><stop offset=".46" stop-color="#E7BC58" stop-opacity=".78"/><stop offset="1" stop-color="#FFF3BA" stop-opacity="0"/></linearGradient></defs>
+        </svg>
+        <img class="door-watermark" src="assets/astroluck-symbol-transparent.png" alt="" aria-hidden="true" />
+        <div class="stage-note"><span>✦</span><div><small>GÜNLÜK KİŞİSEL REHBER</small><b>Sana ait birkaç sakin dakika.</b></div></div>
+
+        <div class="phone" id="phoneMockup">
+          <div class="phone-top"><span></span><i></i></div>
+          <div class="phone-screen">
+            <div class="app-header">
+              <div class="app-identity">
+                <img src="assets/astroluck-mark.png" alt="" />
+                <div class="app-brand"><b>ASTROLUCK<span>6</span></b><small>KİŞİSEL REHBER</small></div>
+              </div>
+              <div class="profile-dot">S</div>
+            </div>
+            <div class="day-line"><span>15 TEMMUZ</span><i></i><span>BUGÜN</span></div>
+            <div class="daily-card">
+              <div class="daily-card-head"><span class="mini-star">✦</span><div><small>BUGÜNKÜ İŞARETİN</small><b>İkinci bakış</b></div><em>İKİZLER</em></div>
+              <p>İlk izlenimden önce, gözden kaçan ayrıntıya bir kez daha bak. Bugün küçük bir farkındalık büyük bir rahatlık yaratabilir.</p>
+              <button type="button">Yorumunu keşfet <span>→</span></button>
+            </div>
+            <div class="mini-grid">
+              <article><span>✦</span><small>BUGÜNKÜ GÖKYÜZÜ</small><b>Sakin başlangıç</b></article>
+              <article><span>06</span><small>KOZMİK SAYI</small><b>Yeni bir kapı</b></article>
+            </div>
+            <div class="guide-card">
+              <div><span>✧</span><div><small>AI REHBER</small><b>Aklındaki soruyu paylaş</b></div></div>
+              <button aria-label="AI rehberi aç">↗</button>
+            </div>
+            <div class="bottom-nav"><span class="active">⌂<small>Bugün</small></span><span>✧<small>Rehber</small></span><span>◌<small>Fincan</small></span><span>▤<small>Yolculuk</small></span></div>
+          </div>
+        </div>
+        <div class="scroll-cue" aria-hidden="true"><span></span><small>KEŞFET</small></div>
+      </div>
+    </section>
+
+    <section class="statement section-shell reveal" id="deneyim">
+      <p class="section-kicker">YENİ BİR DİJİTAL RİTÜEL</p>
+      <h2>Bir cevap vermek için değil,<br><span>bakış açını genişletmek için.</span></h2>
+      <div class="statement-copy">
+        <p>AstroLuck6 sana ne yapman gerektiğini söylemez. Günün gökyüzünü, sembolleri ve sorularını daha sakin bir yerden değerlendirebilmen için sana eşlik eder.</p>
+        <p>Her ekran merak, huzur ve seçim alanı bırakır. Kehanet değil; farkındalık. Baskı değil; davet.</p>
+      </div>
+    </section>
+
+    <section class="features section-shell" id="yolculuk">
+      <div class="section-heading reveal">
+        <p class="section-kicker">YOL BOYUNCA</p>
+        <h2>Her gün, sana ait küçük bir alan.</h2>
+        <p>Gökyüzünden fincanına, sorularından geçmiş işaretlerine kadar deneyimin her parçası aynı sakin dille konuşur.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card reveal">
+          <div class="feature-icon sky-icon"><span>✦</span></div>
+          <p class="feature-number">01</p>
+          <h3>Bugünkü Gökyüzü</h3>
+          <p>Gerçek gökyüzü verilerini, gereksiz teknik kalabalık olmadan gününün ana temasına dönüştürür.</p>
+          <span class="feature-link">İşareti gör <i>→</i></span>
+        </article>
+        <article class="feature-card reveal">
+          <div class="feature-icon guide-icon"><span>◈</span></div>
+          <p class="feature-number">02</p>
+          <h3>Konuşabileceğin Rehber</h3>
+          <p>AI Rehber sorunu dinler, ihtimalleri görünür kılar ve kararı senin yerine vermeden yanında yürür.</p>
+          <span class="feature-link">Sorunu paylaş <i>→</i></span>
+        </article>
+        <article class="feature-card reveal">
+          <div class="feature-icon coffee-icon"><span>◌</span></div>
+          <p class="feature-number">03</p>
+          <h3>Fincanın Anlattıkları</h3>
+          <p>Yapay zekâ, fincandaki izleri güvenli anlam kütüphanesiyle yorumlar; kesinlik değil, keşif sunar.</p>
+          <span class="feature-link">Hikâyeyi keşfet <i>→</i></span>
+        </article>
+        <article class="feature-card reveal">
+          <div class="feature-icon memory-icon"><span>⌁</span></div>
+          <p class="feature-number">04</p>
+          <h3>Yolculuk Günlüğü</h3>
+          <p>Geçmiş işaretlerini, rehberliklerini ve fincan yorumlarını kendi ritminde yeniden ziyaret et.</p>
+          <span class="feature-link">Geçtiğin yolu gör <i>→</i></span>
+        </article>
+      </div>
+    </section>
+
+    <section class="principles section-shell" id="ilkeler">
+      <div class="principles-card reveal">
+        <div class="principles-copy">
+          <p class="section-kicker">IŞIĞIN SINIRI</p>
+          <h2>Kararlarını sen verirsin.</h2>
+          <p>AstroLuck6 geleceği garanti etmez, korku dili kullanmaz ve kişisel kırılganlıkları satış aracına dönüştürmez. Yapay zekâ yalnızca bir bakış açısı sunar.</p>
+          <div class="principle-pills">
+            <span>18+ deneyim</span><span>Kesinlik yok</span><span>Veri minimizasyonu</span><span>Kalıcı silme kontrolü</span>
+          </div>
+        </div>
+        <div class="door-scene" aria-hidden="true">
+          <div class="door-aura"></div>
+          <img src="assets/astroluck-symbol-transparent.png" alt="" />
+          <div class="door-caption"><span></span><small>Kapıyı biz aralarız.<br>Adımı sen atarsın.</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="journey section-shell reveal">
+      <div class="journey-line" aria-hidden="true"><span></span></div>
+      <div class="journey-step"><small>01</small><h3>Dur</h3><p>Günün gürültüsünden birkaç dakikalığına uzaklaş.</p></div>
+      <div class="journey-step"><small>02</small><h3>Fark et</h3><p>Gökyüzündeki ve içindeki işaretleri daha net gör.</p></div>
+      <div class="journey-step"><small>03</small><h3>Değerlendir</h3><p>İhtimalleri kendi hayatının bağlamında düşün.</p></div>
+      <div class="journey-step"><small>04</small><h3>Yürü</h3><p>Son adım her zaman sana ait.</p></div>
+    </section>
+
+    <section class="final-cta section-shell" id="basla">
+      <div class="cta-glow" aria-hidden="true"></div>
+      <img src="assets/astroluck-symbol-transparent.png" alt="" class="cta-mark reveal" />
+      <p class="eyebrow reveal"><span></span> KAPI ARALIK</p>
+      <h2 class="reveal">Kendi yolunu keşfet.</h2>
+      <p class="reveal">AstroLuck6, iOS ve Android için hazırlanıyor.</p>
+      <div class="store-actions reveal">
+        <button class="store-button" type="button"><span class="store-icon"></span><span><small>Yakında</small>App Store</span></button>
+        <button class="store-button" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 2.8v18.4l10.8-9.2L3.5 2.8Zm12.1 8.1 2.7-2.3-11-6.3 8.3 8.6Zm0 2.2-8.3 8.6 11-6.3-2.7-2.3Zm1.7-1.1 2.9 2.5c.5.4.5 1.1 0 1.5l-.5.3-2.4-4.3Zm0 0 2.4-4.3.5.3c.5.3.5 1.1 0 1.5L17.3 12Z"/></svg><span><small>Yakında</small>Google Play</span></button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-brand"><span class="footer-icon"><img src="assets/astroluck-mark.png" alt=""></span><span>AstroLuck<span class="gold">6</span></span></div>
+    <p>© 2026 AstroLuck6. Her yolculuk bir işaretle başlar.</p>
+    <div><a href="#">Gizlilik</a><a href="#">Kullanım Şartları</a><a href="#">Destek</a><a href="#">Verilerimi Sil</a></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
